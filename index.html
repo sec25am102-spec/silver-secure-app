@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Silver Secure</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:linear-gradient(to right,#141e30,#243b55);
+text-align:center;
+color:white;
+padding:30px;
+}
+
+.card{
+background:white;
+color:black;
+width:300px;
+margin:auto;
+padding:20px;
+border-radius:15px;
+}
+
+input{
+width:90%;
+padding:10px;
+margin:10px;
+}
+
+button{
+padding:10px 20px;
+background:#007bff;
+color:white;
+border:none;
+border-radius:10px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Silver Secure</h1>
+
+<h2>Adaptive Biometric Authentication</h2>
+
+<p>Senior-Centric Banking Security System</p>
+
+<img src="https://cdn-icons-png.flaticon.com/512/3064/3064197.png" width="120">
+
+<div class="card">
+
+<h3>Secure Login</h3>
+
+<input type="text" placeholder="User ID">
+
+<input type="password" placeholder="Password">
+
+<button onclick="showMessage()">
+Authenticate
+</button>
+
+<p id="msg"></p>
+
+</div>
+
+<script>
+
+function showMessage(){
+
+document.getElementById("msg").innerHTML =
+"✅ Authentication Successful";
+
+}
+
+</script>
+
+</body>
+</html>
